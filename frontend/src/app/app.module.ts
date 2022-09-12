@@ -9,12 +9,14 @@ import { FooterComponent } from './components/template/footer/footer.component';
 
 // arquivos extrenos Material
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { NavComponent } from './components/template/nav/nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
