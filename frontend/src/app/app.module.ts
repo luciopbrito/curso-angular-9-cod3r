@@ -9,6 +9,7 @@ import { FooterComponent } from './components/template/footer/footer.component';
 import { NavComponent } from './components/template/nav/nav.component';
 import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
+import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 
 // arquivos extrenos Material
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -23,7 +24,8 @@ import { MatCardModule } from '@angular/material/card';
     FooterComponent,
     NavComponent,
     HomeComponent,
-    ProductCrudComponent
+    ProductCrudComponent,
+    ProductCreateComponent
   ],
   imports: [
     BrowserModule,
