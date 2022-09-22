@@ -13,6 +13,7 @@ import { ProductCreateComponent } from './components/product/product-create/prod
 
 // directives
 import { RedDirective } from './directives/red.directive';
+import { ForDirective } from './directives/for.directive';
 
 // arquivos extrenos Material
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -29,7 +30,8 @@ import { MatCardModule } from '@angular/material/card';
     HomeComponent,
     ProductCrudComponent,
     ProductCreateComponent,
-    RedDirective
+    RedDirective,
+    ForDirective
   ],
   imports: [
     BrowserModule,
