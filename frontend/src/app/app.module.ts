@@ -11,6 +11,10 @@ import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 
+// directives
+import { RedDirective } from './directives/red.directive';
+import { ForDirective } from './directives/for.directive';
+
 // arquivos extrenos Material
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatSidenavModule } from '@angular/material/sidenav';
@@ -25,7 +29,9 @@ import { MatCardModule } from '@angular/material/card';
     NavComponent,
     HomeComponent,
     ProductCrudComponent,
-    ProductCreateComponent
+    ProductCreateComponent,
+    RedDirective,
+    ForDirective
   ],
   imports: [
     BrowserModule,
