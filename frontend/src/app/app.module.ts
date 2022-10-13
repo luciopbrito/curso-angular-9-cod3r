@@ -10,6 +10,7 @@ import { NavComponent } from './components/template/nav/nav.component';
 import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
+import { ProductReadComponent } from './components/product/product-read/product-read.component';
 
 // directives
 import { RedDirective } from './directives/red.directive';
@@ -40,7 +41,8 @@ import { MatInputModule } from '@angular/material/input';
     ProductCrudComponent,
     ProductCreateComponent,
     RedDirective,
-    ForDirective
+    ForDirective,
+    ProductReadComponent
   ],
   imports: [
     BrowserModule,
