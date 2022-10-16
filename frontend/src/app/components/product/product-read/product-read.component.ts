@@ -11,11 +11,11 @@ export class ProductReadComponent implements OnInit {
 
   products: Product[];
 
-  displayedColumns = ["id", 'name', 'price']
+  displayedColumns = ["id", 'name', 'price', 'action']
 
   constructor(private productService: ProductService) {
     this.products =[];
-    this.displayedColumns = ["id", 'name', 'price']
+    this.displayedColumns = ["id", 'name', 'price', 'action']
    }
 
   ngOnInit(): void {
@@ -23,5 +23,4 @@ export class ProductReadComponent implements OnInit {
       this.products = products;
     })
   }
-
 }
