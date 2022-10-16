@@ -19,6 +19,11 @@
       "name": "Computador Gamer",
       "price": "15000.00",
       "id": 4
+    },
+    {
+      "name": "Placa mãe",
+      "price": "2.500",
+      "id": 5
     }
   ]
 }
