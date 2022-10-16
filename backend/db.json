@@ -24,6 +24,11 @@
       "name": "Placa mãe",
       "price": "2.500",
       "id": 5
+    },
+    {
+      "name": "Monitor acer",
+      "price": "1.200.00",
+      "id": 6
     }
   ]
 }
