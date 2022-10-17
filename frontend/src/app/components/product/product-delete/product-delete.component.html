@@ -1,0 +1,21 @@
+<mat-card>
+    <mat-card-title>Deletar Produto</mat-card-title>
+
+    <form>
+        <mat-form-field>
+            <input matInput [value]="product.name" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput [value]="product.price | currency: 'BRL'" disabled>
+        </mat-form-field>
+    </form>
+
+    <div class="buttons">
+        <button mat-raised-button color="warn" (click)="deleteProduct()">
+            Delete
+        </button>
+        <button mat-raised-button color="primary" (click)="cancel()">
+            Cancelar
+        </button>
+    </div>
+</mat-card>
