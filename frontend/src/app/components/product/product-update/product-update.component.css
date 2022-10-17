@@ -1,0 +1,17 @@
+.title {
+    margin: 0 0 20px 0;
+}
+
+.form {
+   display: flex;
+   flex-direction: column;
+}
+
+.bg-red {
+    background-color: rgb(201, 16, 16);
+    color: white;
+}
+
+.btn-save {
+    margin: 0 20px 0 0;
+}
