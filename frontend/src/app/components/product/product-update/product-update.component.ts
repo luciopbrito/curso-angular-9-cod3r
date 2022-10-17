@@ -1,4 +1,3 @@
-import { HttpClient } from '@angular/common/http';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ProductService } from './../product.service';
 import { Product } from './../product.model';
