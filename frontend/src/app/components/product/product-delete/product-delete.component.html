@@ -3,10 +3,10 @@
 
     <form>
         <mat-form-field>
-            <input matInput [value]="product.name" disabled>
+            <input matInput placeholder="Nome" [value]="product.name" disabled>
         </mat-form-field>
         <mat-form-field>
-            <input matInput [value]="product.price | currency: 'BRL'" disabled>
+            <input matInput placeholder="Preço" [value]="product.price | currency: 'BRL'" disabled>
         </mat-form-field>
     </form>
 
@@ -14,7 +14,7 @@
         <button mat-raised-button color="warn" (click)="deleteProduct()">
             Delete
         </button>
-        <button mat-raised-button color="primary" (click)="cancel()">
+        <button mat-raised-button (click)="cancel()">
             Cancelar
         </button>
     </div>
