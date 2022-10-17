@@ -4,5 +4,6 @@ button {
 
 form {
     display: flex;
-    flex-direction: column;  
+    flex-direction: column; 
+    margin: 20px 0 0 0; 
 }

@@ -30,7 +30,7 @@ export class ProductService {
     return this.http.get<Product[]>(this.baseUrl);
   }
 
-  readById(id: string | null): Observable<Product> {
+  readById(id: number | null): Observable<Product> {
     const url = `${this.baseUrl}/${id}`;
     return this.http.get<Product>(url)
   }
@@ -40,7 +40,7 @@ export class ProductService {
     return this.http.put<Product>(url, product);
   }
 
-  delete(id: string | null): Observable<Product> {
+  delete(id: number | null): Observable<Product> {
     const url = `${this.baseUrl}/${id}`;
     return this.http.delete<Product>(url);
   }
