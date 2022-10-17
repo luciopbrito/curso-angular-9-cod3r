@@ -19,7 +19,7 @@ export class ProductUpdateComponent implements OnInit {
     private router: Router,
     private route: ActivatedRoute
   ) {
-    this.product = { name: "", price: 0 };
+    this.product = { name: "", price: null };
     this.idproduct = null;
   }
 
