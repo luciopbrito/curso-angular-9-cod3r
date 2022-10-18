@@ -8,6 +8,7 @@
   display: flex;
   align-items: center;
   text-decoration: none;
+  color: #333;
 }
 
 .header .logo {
@@ -18,4 +19,8 @@
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+.icon {
+  margin: 0 10px 0 0;
 }
